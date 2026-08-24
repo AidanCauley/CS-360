@@ -2,17 +2,17 @@
 
 ## Inventory Tracker App
 
-For this course, I developed an Android inventory tracker app. The goal of the app is to help users manage inventory from a phone or tablet. The app allows a user to create an account, log in, choose whether to allow SMS alerts, add inventory items, view current stock, update item quantities, and remove items that are no longer needed. The main user needs this app was designed to address were simple inventory tracking, quick quantity updates, and low-stock awareness.
+For this course, I developed an Android inventory tracker app. The goal of the app is to help users manage inventory from a phone or tablet. The app allows a user to create an account, log in, choose whether to allow SMS alerts, add inventory items, view current stock, update item quantities, and remove items that are no longer needed. The main user needs this app was designed to address were simple inventory tracking, quick quantity updates, and low stock awareness.
 
 ## Screens and Features
 
 The app includes a login screen, an SMS permission screen, and an inventory screen. The login screen lets users create an account or log in with saved information. The SMS permission screen gives users the choice to allow or decline SMS alerts. The inventory screen includes text fields, buttons, and a current inventory list so users can add items, select rows, increase or decrease quantities, type an exact quantity, and remove selected items.
 
-These screens were necessary because they separate the main parts of the app into a clear flow. Instead of putting every feature on one screen, the app starts with login, moves to permission choice, and then brings the user to the inventory tools. This helped keep the design easier to follow and more user-centered.
+These screens were necessary because they separate the main parts of the app into a clear flow. Instead of putting every feature on one screen, the app starts with login, moves to permission choice, and then brings the user to the inventory tools. This helped keep the design easier to follow and more user centered.
 
 ## Design Approach
 
-My design approach was to keep the app simple and organized. I wanted the user to understand what each screen was for without needing extra instructions. The inventory screen was designed around the actions a user would need most: adding items, viewing stock, updating quantities, and removing items. The low-stock alert also helps users quickly notice when an item needs attention.
+My design approach was to keep the app simple and organized. I wanted the user to understand what each screen was for without needing extra instructions. The inventory screen was designed around the actions a user would need most: adding items, viewing stock, updating quantities, and removing items. The low stock alert also helps users quickly notice when an item needs attention.
 
 ## Development Approach
 
@@ -22,7 +22,7 @@ Breaking the project into smaller steps made it easier to find and fix problems.
 
 ## Testing
 
-I tested the app in the Android Emulator to make sure the main features worked correctly. I tested creating an account, logging in, adding inventory items, updating quantities, removing items, and checking low-stock behavior. I also tested allowing and declining SMS permission to make sure the app still worked even when SMS alerts were not allowed.
+I tested the app in the Android Emulator to make sure the main features worked correctly. I tested creating an account, logging in, adding inventory items, updating quantities, removing items, and checking low stock behavior. I also tested allowing and declining SMS permission to make sure the app still worked even when SMS alerts were not allowed.
 
 Testing was important because small issues were not always obvious until I used the app like a real user. It helped reveal problems with button behavior, quantity updates, and the overall screen flow. Testing also helped confirm that the database saved and displayed inventory information correctly.
 
